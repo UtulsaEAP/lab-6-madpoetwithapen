@@ -13,5 +13,5 @@ def check_palindrome(user_input):
 
  #type your code here
 if __name__ == "__main__":
-    user_input = input()
+    user_input = input("Enter a word or phrase: ")
     check_palindrome(user_input)

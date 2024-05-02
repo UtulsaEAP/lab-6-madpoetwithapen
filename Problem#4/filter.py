@@ -1,14 +1,16 @@
+
+
 def process_and_print(input_string):
       # Split into separate strings
-
+    numbers = input_string.split
     # Convert strings to integers and filter out negative values
-    input_data = 
+    nums = [int(number) for number in numbers if int(number) < 0]
+    
+    nums.sort(reverse=True)
 
-    # Sort integers in reverse order
-  
-    # Print sorted integers
-    
-    
+    for x in nums: print(x, end=' ')
+
+
 
 if __name__ == "__main__":
     # User inputs string w/ numbers
@@ -16,3 +18,15 @@ if __name__ == "__main__":
 
     # Call the function to process and print the result
     process_and_print(user_input)
+
+
+
+    numbers = input_string.split()
+
+
+
+
+    # Convert strings to integers and filter out negative values
+
+    
+

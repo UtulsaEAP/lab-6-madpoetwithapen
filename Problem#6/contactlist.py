@@ -1,14 +1,20 @@
 def process_user_contacts(user_input):
-    user_contacts = 
+    current_contact = []
+    user_input = user_input.split("")
+    dictionary ={}
 
- 
-    user_input = 
-    tokens = 
+    for i in range(0, len(user_input), 1):
 
-    # Put word pairs into a dictionary
+        current_contact = user_input[i].split(",")
+
+        dictionary.update({current_contact[0]:current_contact[1]})
+
     
-    # Get contact name from input, output contact's phone number
-    contact_name = input("Enter the contact name: ")
+
+    search_name = input("Enter contact name: ")
+
+    print(dictionary.get(search_name))
+
     
    
 if __name__ == '__main__':

@@ -8,7 +8,8 @@ def process_and_print(input_string):
     
     nums.sort(reverse=True)
 
-    for x in nums: print(x, end=' ')
+    for x in nums: 
+       print(x, end=' ')
 
 
 
@@ -20,8 +21,6 @@ if __name__ == "__main__":
     process_and_print(user_input)
 
 
-
-    numbers = input_string.split()
 
 
 

@@ -1,5 +1,3 @@
-
-
 def food_input():
     #type you while  loop here
     while True:

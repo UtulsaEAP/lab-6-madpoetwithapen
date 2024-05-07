@@ -1,6 +1,6 @@
 def process_user_contacts(user_input):
     current_contact = []
-    user_input = user_input.split("")
+    user_input = user_input.split(" ")
     dictionary ={}
 
     for i in range(0, len(user_input), 1):

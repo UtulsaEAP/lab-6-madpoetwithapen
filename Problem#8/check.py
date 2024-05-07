@@ -1,15 +1,15 @@
 def in_order(nums):
     # Type your code here.
-    numlist =  []
-    newlist = nums.copy
+    num_list =  []
+    new_list = nums.copy()
 
-    for _ in range (0,len(newlist)):
-        numlist.append(min,newlist)
-        numlist.remove(min, newlist)
-    if numlist == nums: 
+    for _ in range (0,len(new_list)):
+        num_list.append(min(new_list))
+        new_list.remove(min(new_list))
+    if num_list == nums: 
         return(True)
     
-    print(numlist)
+    print(num_list)
     print(nums)
 
 if __name__ == '__main__':

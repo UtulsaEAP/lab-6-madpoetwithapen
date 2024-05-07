@@ -8,7 +8,7 @@ def food_input():
     
             else: 
                 food = tokens [0]
-                print(f"Eating{' '.join(tokens[1:])} {food} a day keeps you happy and healthy.")
+                print(f"Eating {' '.join(tokens[1:])} {food} a day keeps you happy and healthy.")
 
 
 if __name__ == "__main__":

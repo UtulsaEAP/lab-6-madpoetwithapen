@@ -1,5 +1,5 @@
 def calculate_car_wash_price(service_choice1, service_choice2):
-        services = {'Air freshener': 1, 'Rain repellent': 2, 'Tire shine': 2, 'Wax': 3, 'Vacuum': 5}
+        services = {'Air freshener': 1, 'Rain repellent': 2, 'Tire shine': 2, 'Wax': 3, 'Vacuum': 5, "-": 0}
         base_wash = 10
         total = int(base_wash)
         value = services.get(service_choice1)

@@ -2,7 +2,7 @@
 
 def process_and_print(input_string):
       # Split into separate strings
-    numbers = input_string.split
+    numbers = input_string.split()
     # Convert strings to integers and filter out negative values
     nums = [int(number) for number in numbers if int(number) < 0]
     
